@@ -282,10 +282,6 @@ ul, li, a, p {
   height: 200px;
   width: 100%;
   border: solid whitesmoke 8px;
-  -webkit-animation-name: imageSlide;
-    -webkit-animation-timing-function:ease-in-out;
-    -webkit-animation-iteration-count:infinite;
-    -webkit-animation-duration:10s;
 }
 
 .background1{
@@ -296,7 +292,6 @@ ul, li, a, p {
     -webkit-animation-timing-function:ease-in-out;
     -webkit-animation-iteration-count:infinite;
     -webkit-animation-duration:20s;
-
 }
 
 @-webkit-keyframes side {
