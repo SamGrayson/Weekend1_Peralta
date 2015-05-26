@@ -296,7 +296,6 @@ ul, li, a, p {
     -webkit-animation-timing-function:ease-in-out;
     -webkit-animation-iteration-count:infinite;
     -webkit-animation-duration:20s;
-
 }
 
 @-webkit-keyframes slide {
@@ -1039,7 +1038,7 @@ input {
 }
 
 /*************************************
-          @  1000px width
+          @  1024px width
 **************************************/
 
 @media (max-width:1024px ) {
