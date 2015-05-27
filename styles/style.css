@@ -218,7 +218,7 @@ ul, li, a, p {
   -webkit-animation: fadeIn 2s ease-in; }
 
 .background_wrap {
-  background: url(/../images/grind.png);
+  background: url("/../images/grind.png");
   background-position: 50% 30%;
   background-size: 900px 600px;
   position: relative;
@@ -241,41 +241,41 @@ ul, li, a, p {
 
 @-webkit-keyframes slide {
   0% {
-    background-image: url(/../images/grind.png);
+    background-image: url("/../images/grind.png");
     background-position: 50% 30%;
     background-size: 900px 600px; }
   100% {
-    background-image: url(/../images/skate.png);
+    background-image: url("/../images/skate.png");
     background-position: 50% 10%;
     background-size: 900px 600px; } }
 
 @-webkit-keyframes imageSlide {
   0% {
-    background-image: url(/../images/top-image.png);
+    background-image: url("/../images/top-image.png");
     background-position: 50% 30%;
     background-size: 900px 600px; }
   17% {
-    background-image: url(/../images/top-image.png);
+    background-image: url("/../images/top-image.png");
     background-position: 50% 30%;
     background-size: 900px 600px; }
   33% {
-    background-image: url(/../images/grind.png);
+    background-image: url("/../images/grind.png");
     background-position: 50% 30%;
     background-size: 900px 600px; }
   49% {
-    background-image: url(/../images/grind.png);
+    background-image: url("/../images/grind.png");
     background-position: 50% 10%;
     background-size: 900px 600px; }
   66% {
-    background-image: url(/../images/skate.png);
+    background-image: url("/../images/skate.png");
     background-position: 50% 10%;
     background-size: 900px 600px; }
   83% {
-    background-image: url(/../images/skate.png);
+    background-image: url("/../images/skate.png");
     background-position: 50% 80%;
     background-size: 900px 600px; }
   100% {
-    background-image: url(/../images/top-image.png);
+    background-image: url("/../images/top-image.png");
     background-position: 50% 30%;
     background-size: 900px 600px; } }
 
