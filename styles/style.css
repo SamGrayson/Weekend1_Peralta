@@ -626,13 +626,13 @@ ul, li, a, p {
   width: 100%;
   font-size: 2vw;
   background-size: cover;
-  border: so lid 5px white;
+  border: solid 5px white;
   -webkit-box-flex: 2;
   -webkit-flex-grow: 2;
   -ms-flex-positive: 2;
   flex-grow: 2;
   margin-top: 10px; }
-  .steve :hover {
+  .steve:hover {
     background: linear-gradient(transparent, transparent), url("/../images/sk8er-1.png");
     height: 150px;
     background-position: 100% 50%;
