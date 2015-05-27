@@ -5,7 +5,7 @@
 
 body {
   position: relative;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/../images/bg.jpg") no-repeat fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/bg.jpg") no-repeat fixed;
   background-size: cover;
   margin: 0;
   padding: 0; }
@@ -218,7 +218,7 @@ ul, li, a, p {
   -webkit-animation: fadeIn 2s ease-in; }
 
 .background_wrap {
-  background: url("/../images/grind.png");
+  background: url(../images/grind.png);
   background-position: 50% 30%;
   background-size: 900px 600px;
   position: relative;
@@ -241,46 +241,46 @@ ul, li, a, p {
 
 @-webkit-keyframes slide {
   0% {
-    background-image: url("/../images/grind.png");
+    background-image: url(../images/grind.png);
     background-position: 50% 30%;
     background-size: 900px 600px; }
   100% {
-    background-image: url("/../images/skate.png");
+    background-image: url(../images/skate.png);
     background-position: 50% 10%;
     background-size: 900px 600px; } }
 
 @-webkit-keyframes imageSlide {
   0% {
-    background-image: url("/../images/top-image.png");
+    background-image: url(../images/top-image.png);
     background-position: 50% 30%;
     background-size: 900px 600px; }
   17% {
-    background-image: url("/../images/top-image.png");
+    background-image: url(../images/top-image.png);
     background-position: 50% 30%;
     background-size: 900px 600px; }
   33% {
-    background-image: url("/../images/grind.png");
+    background-image: url(../images/grind.png);
     background-position: 50% 30%;
     background-size: 900px 600px; }
   49% {
-    background-image: url("/../images/grind.png");
+    background-image: url(../images/grind.png);
     background-position: 50% 10%;
     background-size: 900px 600px; }
   66% {
-    background-image: url("/../images/skate.png");
+    background-image: url(../images/skate.png);
     background-position: 50% 10%;
     background-size: 900px 600px; }
   83% {
-    background-image: url("/../images/skate.png");
+    background-image: url(../images/skate.png);
     background-position: 50% 80%;
     background-size: 900px 600px; }
   100% {
-    background-image: url("/../images/top-image.png");
+    background-image: url(../images/top-image.png);
     background-position: 50% 30%;
     background-size: 900px 600px; } }
 
 .grid {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/../images/grid.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/grid.png);
   width: 100%;
   height: 100%;
   background-size: cover; }
@@ -573,7 +573,7 @@ ul, li, a, p {
   justify-content: space-between; }
 
 .lance {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/../images/sk8er-4.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/sk8er-4.png");
   background-position: 100% 50%;
   height: 150px;
   width: 49.1%;
@@ -582,7 +582,7 @@ ul, li, a, p {
   border: solid 5px white;
   margin-top: 10px; }
   .lance:hover {
-    background: linear-gradient(transparent, transparent), url("/../images/sk8er-4.png");
+    background: linear-gradient(transparent, transparent), url("../images/sk8er-4.png");
     height: 150px;
     background-position: 100% 50%;
     width: 49.1%;
@@ -597,7 +597,7 @@ ul, li, a, p {
     padding: 10%; }
 
 .rodney {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/../images/sk8er-3.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/sk8er-3.png");
   width: 49.1%;
   height: 150px;
   font-size: 2vw;
@@ -608,7 +608,7 @@ ul, li, a, p {
   .rodney h4 {
     padding: 10%; }
   .rodney:hover {
-    background: linear-gradient(transparent, transparent), url("/../images/sk8er-3.png");
+    background: linear-gradient(transparent, transparent), url("../images/sk8er-3.png");
     width: 49%;
     height: 150px;
     float: left;
@@ -620,7 +620,7 @@ ul, li, a, p {
     cursor: hand; }
 
 .steve {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/../images/sk8er-1.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/sk8er-1.png");
   height: 150px;
   background-position: 100% 50%;
   width: 100%;
@@ -633,7 +633,7 @@ ul, li, a, p {
   flex-grow: 2;
   margin-top: 10px; }
   .steve:hover {
-    background: linear-gradient(transparent, transparent), url("/../images/sk8er-1.png");
+    background: linear-gradient(transparent, transparent), url("../images/sk8er-1.png");
     height: 150px;
     background-position: 100% 50%;
     width: 100%;
@@ -649,7 +649,7 @@ ul, li, a, p {
     cursor: hand; }
 
 .tommy {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/../images/sk8er-2.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/sk8er-2.png");
   height: 310px;
   background-position: 85%;
   background-size: cover;
@@ -658,7 +658,7 @@ ul, li, a, p {
   border: solid 5px white;
   width: 32.5%; }
   .tommy:hover {
-    background: linear-gradient(transparent, transparent), url("/../images/sk8er-2.png");
+    background: linear-gradient(transparent, transparent), url("../images/sk8er-2.png");
     height: 310px;
     background-position: 85%;
     background-size: cover;
@@ -1097,7 +1097,7 @@ ul, li, a, p {
     width: 100%;
     height: 410px; }
   .lance {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/../images/sk8er-4.png");
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/sk8er-4.png");
     background-position: 100% 50%;
     height: 150px;
     width: 100%;
@@ -1105,7 +1105,7 @@ ul, li, a, p {
     border: solid 5px white;
     margin-top: 10px; }
   .lance:hover {
-    background: linear-gradient(transparent, transparent), url("/../images/sk8er-4.png");
+    background: linear-gradient(transparent, transparent), url("../images/sk8er-4.png");
     background-position: 100% 50%;
     height: 150px;
     width: 100%;
@@ -1113,7 +1113,7 @@ ul, li, a, p {
     border: solid 5px white;
     margin-top: 10px; }
   .rodney {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/../images/sk8er-3.png");
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/sk8er-3.png");
     width: 100%;
     height: 150px;
     font-size: 2vw;
@@ -1121,7 +1121,7 @@ ul, li, a, p {
     background-size: cover;
     margin-top: 10px; }
   .rodney:hover {
-    background: linear-gradient(transparent, transparent), url("/../images/sk8er-3.png");
+    background: linear-gradient(transparent, transparent), url("../images/sk8er-3.png");
     width: 100%;
     height: 150px;
     font-size: 2vw;
@@ -1131,7 +1131,7 @@ ul, li, a, p {
     cursor: pointer;
     cursor: hand; }
   .steve {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/../images/sk8er-1.png");
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/sk8er-1.png");
     height: 150px;
     background-position: 100% 50%;
     width: 100%;
@@ -1140,7 +1140,7 @@ ul, li, a, p {
     border: solid 5px white;
     margin-top: 10px; }
   .tommy {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/../images/sk8er-2.png");
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/sk8er-2.png");
     height: 150px;
     background-position: 85%;
     float: left;
@@ -1151,7 +1151,7 @@ ul, li, a, p {
     border: solid 5px white;
     width: 100%; }
   .tommy:hover {
-    background: linear-gradient(transparent, transparent), url("/../images/sk8er-2.png");
+    background: linear-gradient(transparent, transparent), url("../images/sk8er-2.png");
     height: 150px;
     background-position: 85%;
     float: left;
