@@ -820,9 +820,10 @@ ul, li, a, p {
   width: 100%;
   font-size: 2vw;
   background-size: cover;
-  border: so lid 5px white;
+  border: solid 5px white;
   -webkit-box-flex: 2;-webkit-flex-grow: 2;-ms-flex-positive: 2;flex-grow: 2;
   margin-top: 10px;
+<<<<<<< HEAD
 <<<<<<< HEAD:styles/styles2.css
 }
 
@@ -840,6 +841,9 @@ ul, li, a, p {
   cursor: pointer; cursor: hand;
 =======
   :hover {
+=======
+  &:hover {
+>>>>>>> caef84a414b3c6e026a2cff366c3658dc3099e74
     background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),
                 url('/../images/sk8er-1.png');
     height: 150px;
