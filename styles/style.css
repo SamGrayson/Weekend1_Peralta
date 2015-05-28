@@ -122,38 +122,46 @@ ul, li, a, p {
 .social {
   font-size: 1.5em;
   color: gray; }
-  .social .fa-facebook {
-    background-color: rgba(59, 89, 152, 0.8);
-    padding: 5px 10px 5px 10px;
-    border-bottom: 2px solid gray; }
-  .social .fa-facebook:hover {
-    background-color: #3b59d2;
-    padding: 5px 10px 5px 10px;
-    border-bottom: 2px solid gray; }
-  .social .fa-twitter {
-    background-color: rgba(0, 172, 237, 0.8);
-    padding: 5px 6px 5px 6px;
-    border-bottom: 2px solid gray; }
-  .social .fa-twitter:hover {
-    background-color: #00acfa;
-    padding: 5px 6px 5px 6px;
-    border-bottom: 2px solid gray; }
-  .social .fa-instagram {
-    background-color: rgba(81, 127, 164, 0.8);
-    padding: 5px 7px 5px 7px;
-    border-bottom: 2px solid gray; }
-  .social .fa-instagram:hover {
-    background-color: #517fbe;
-    padding: 5px 7px 5px 7px;
-    border-bottom: 2px solid gray; }
-  .social .fa-youtube {
-    background-color: rgba(187, 0, 0, 0.8);
-    padding: 5px 7px 5px 7px;
-    border-bottom: 2px solid gray; }
-  .social .fa-youtube:hover {
-    background-color: #d20000;
-    padding: 5px 7px 5px 7px;
-    border-bottom: 2px solid gray; }
+
+.fa-facebook {
+  background-color: rgba(59, 89, 152, 0.8);
+  padding: 5px 10px 5px 10px;
+  border-bottom: 2px solid gray; }
+
+.fa-facebook:hover {
+  background-color: #3b59d2;
+  padding: 5px 10px 5px 10px;
+  border-bottom: 2px solid gray; }
+
+.fa-twitter {
+  background-color: rgba(0, 172, 237, 0.8);
+  padding: 5px 6px 5px 6px;
+  border-bottom: 2px solid gray; }
+
+.fa-twitter:hover {
+  background-color: #00acfa;
+  padding: 5px 6px 5px 6px;
+  border-bottom: 2px solid gray; }
+
+.fa-instagram {
+  background-color: rgba(81, 127, 164, 0.8);
+  padding: 5px 7px 5px 7px;
+  border-bottom: 2px solid gray; }
+
+.fa-instagram:hover {
+  background-color: #517fbe;
+  padding: 5px 7px 5px 7px;
+  border-bottom: 2px solid gray; }
+
+.fa-youtube {
+  background-color: rgba(187, 0, 0, 0.8);
+  padding: 5px 7px 5px 7px;
+  border-bottom: 2px solid gray; }
+
+.fa-youtube:hover {
+  background-color: #d20000;
+  padding: 5px 7px 5px 7px;
+  border-bottom: 2px solid gray; }
 
 .logo_top {
   position: relative;
@@ -218,7 +226,11 @@ ul, li, a, p {
   -webkit-animation: fadeIn 2s ease-in; }
 
 .background_wrap {
+<<<<<<< HEAD
   background: url("../images/grind.png");
+=======
+  background: url(../images/grind.png);
+>>>>>>> 07dadb8f1919bcbb2dd12f713e43044627d80222
   background-position: 50% 30%;
   background-size: 900px 600px;
   position: relative;
@@ -241,16 +253,25 @@ ul, li, a, p {
 
 @-webkit-keyframes slide {
   0% {
+<<<<<<< HEAD
     background-image: url("../images/grind.png");
     background-position: 50% 30%;
     background-size: 900px 600px; }
   100% {
     background-image: url("../images/skate.png");
+=======
+    background-image: url(../images/grind.png);
+    background-position: 50% 30%;
+    background-size: 900px 600px; }
+  100% {
+    background-image: url(../images/skate.png);
+>>>>>>> 07dadb8f1919bcbb2dd12f713e43044627d80222
     background-position: 50% 10%;
     background-size: 900px 600px; } }
 
 @-webkit-keyframes imageSlide {
   0% {
+<<<<<<< HEAD
     background-image: url("../images/top-image.png");
     background-position: 50% 30%;
     background-size: 900px 600px; }
@@ -276,6 +297,33 @@ ul, li, a, p {
     background-size: 900px 600px; }
   100% {
     background-image: url("../images/top-image.png");
+=======
+    background-image: url(../images/top-image.png);
+    background-position: 50% 30%;
+    background-size: 900px 600px; }
+  17% {
+    background-image: url(../images/top-image.png);
+    background-position: 50% 30%;
+    background-size: 900px 600px; }
+  33% {
+    background-image: url(../images/grind.png);
+    background-position: 50% 30%;
+    background-size: 900px 600px; }
+  49% {
+    background-image: url(../images/grind.png);
+    background-position: 50% 10%;
+    background-size: 900px 600px; }
+  66% {
+    background-image: url(../images/skate.png);
+    background-position: 50% 10%;
+    background-size: 900px 600px; }
+  83% {
+    background-image: url(../images/skate.png);
+    background-position: 50% 80%;
+    background-size: 900px 600px; }
+  100% {
+    background-image: url(../images/top-image.png);
+>>>>>>> 07dadb8f1919bcbb2dd12f713e43044627d80222
     background-position: 50% 30%;
     background-size: 900px 600px; } }
 
